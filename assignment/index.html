@@ -7,30 +7,33 @@
   <!-- Change the <title> from "Page Title" to "Hello World" -->
   <title>Hello World</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="reset.css" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=VT323&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link rel="stylesheet" type="text/css"  href="small.css" media="(min-width: 0px) and (max-width: 929px)">
+  <link rel="stylesheet" href="style.css" media="(min-width: 930px)">
   <script src="helloWorld.js"></script>
 </head>
 
 <body>
-  <!-- Create a header with an <h1> containing your name -->
-  <div class="header-container">
-    <h1>Jordan Ashbacher</h1>
-  </div>
+  <section class="idx-atf">
+    <div class="header-container">
+      <h1>Jordan Ashbacher</h1>
+    </div>
+    <div class="img-container">
+      <img src="my-mug.jpg" alt="A photo of me">
+      <img src="tractor.jpg" alt="Minneapolis-Moline tractor">
+    </div>
 
-  <!-- Include an image -->
-  <img src="../images/my-mug.jpg" alt="My mug">
-  <!-- Create an unordered list with 3 list items of fun facts about you -->
-  <ul>
-    <li>I'm right handed but use chopsticks with my left hand.</li>
-    <li>I grew up on a zoo in Iowa. Think a wholesome version of Tiger King and without the tigers.</li>
-    <li>I'm the proud owner of an antique Minneapolis-Moline tractor.</li>
-  </ul>
-  <!-- Create a footer -->
-  <footer>
-    <p>"It is good to have an end to journey toward, but it is the journey that matters in the end." - Ursula K. Le Guin</p>
-  </footer>
-  <!-- Inside your footer, put a <p> with your favorite quote -->
+    <ul>
+      <li>I'm right handed but use chopsticks with my left hand.</li>
+      <li>I grew up on a zoo in Iowa. Think a wholesome version of Tiger King and without the murder and tigers.</li>
+      <li>I'm the proud owner of an antique Minneapolis-Moline tractor.</li>
+    </ul>
+
+    <footer>
+      <p id="quote">"It is good to have an end to journey toward, but it is the journey that matters in the end." - Ursula K. Le Guin</p>
+    </footer>
+  </section>
 </body>
 
 
